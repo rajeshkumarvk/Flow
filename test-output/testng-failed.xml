@@ -5,8 +5,6 @@
     <classes>
       <class name="Complete.Flow.Simple">
         <methods>
-          <include name="setup"/>
-          <include name="Teardown"/>
           <include name="checkurl"/>
         </methods>
       </class> <!-- Complete.Flow.Simple -->
