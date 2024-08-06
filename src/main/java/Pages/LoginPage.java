@@ -12,6 +12,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class LoginPage extends Readjson{
 	
 	public static WebDriver driver;
+	
 	String filepath = "./test.json.txt"; 
 	
 	public LoginPage() {
@@ -28,6 +29,7 @@ public void navigatetourl() throws IOException, ParseException  {
 	this.loadTestData(filepath);
 	
 	driver.get(testdata.get("URL8").toString());
+	
 		
 	}
 
