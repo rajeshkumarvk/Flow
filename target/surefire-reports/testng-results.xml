@@ -2,15 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-06T14:28:24 IST" name="Suite" finished-at="2024-08-06T14:28:24 IST" duration-ms="77">
+  <suite started-at="2024-08-06T16:00:14 IST" name="Suite" finished-at="2024-08-06T16:00:21 IST" duration-ms="7266">
     <groups>
     </groups>
-    <test started-at="2024-08-06T14:28:24 IST" name="Test" finished-at="2024-08-06T14:28:24 IST" duration-ms="77">
+    <test started-at="2024-08-06T16:00:14 IST" name="Test" finished-at="2024-08-06T16:00:21 IST" duration-ms="7266">
       <class name="Complete.Flow.Simple">
-        <test-method signature="simp()[pri:0, instance:Complete.Flow.Simple@2ddc8ecb]" started-at="2024-08-06T14:28:24 IST" name="simp" finished-at="2024-08-06T14:28:24 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Complete.Flow.Simple@27ce24aa]" started-at="2024-08-06T16:00:14 IST" name="setup" finished-at="2024-08-06T16:00:17 IST" duration-ms="3399" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- simp -->
+        </test-method> <!-- setup -->
+        <test-method signature="checkurl()[pri:0, instance:Complete.Flow.Simple@27ce24aa]" started-at="2024-08-06T16:00:17 IST" name="checkurl" finished-at="2024-08-06T16:00:21 IST" duration-ms="3544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkurl -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:Complete.Flow.Simple@27ce24aa]" started-at="2024-08-06T16:00:21 IST" name="Teardown" finished-at="2024-08-06T16:00:21 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
       </class> <!-- Complete.Flow.Simple -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
